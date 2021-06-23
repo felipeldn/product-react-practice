@@ -4,8 +4,8 @@ import productsData from './vschoolProducts.js';
 
 function App() {
 
-  const productComponents = productsData.map(product => {
-    return(<Product key={product.id} name={product.name} price={product.price} description={product.description}/>
+  const productComponents = productsData.map(item => {
+    return(<Product key={item.id} product={item}/>
       )
     })
 
