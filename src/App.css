@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex-basis: 250px;
+  margin: 20px
+}
+
+.product-card > h2 {
+  text-align: center;
+}
+
+.product-card > h3 {
+  text-align: center;
+  font-size: 40px;
+  color: rgba(252, 0, 0, 0.267); 
+}
